@@ -1,0 +1,119 @@
+header{
+    font-family: "Open Sans";
+    background-color: #5D737E;
+    width: 100%;
+    height: 50px;
+    top:0
+}
+
+body{
+    background-color: #FFFBFC;
+    text-align: center;
+    min-height: 100vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: "Open Sans";
+}
+
+h1{
+    font-family: "Open Sans" ;
+}
+h2{
+    font-family: "Open Sans" ;
+    color: white;
+}
+
+label{
+    font-family: "Open Sans";
+    font-size: 17px;
+}
+
+p{
+    font-family: "Open Sans";
+    font-size: 17px;
+}
+
+input[type=submit]{
+    font-family: "Open Sans";
+    float:right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.search input[type=text]{
+    font-family: "Open Sans";
+    float:right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+select{
+    width:150px;
+    font-family: "Open Sans";
+}
+
+.filter{
+    font-family: "Open Sans";
+    float:right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+form {
+    font-family: "Open Sans";
+    padding: 50px;
+    float: center;
+    margin: auto;
+    border-style: solid;
+    border-color: #5D737E;
+
+}
+
+footer{
+    background-color: #5D737E;
+    font-family: "Open Sans";
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+
+}
+
+.content {
+    background-color: #FFFBFC;
+    font-family: "Open Sans";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.CNL {
+    margin-top:25px;
+    width: 100%;
+}
+
+.ActiveListings {
+    margin-top: 50px;
+}
+
+.ShoppingCart {
+    align-content: left;
+}
+
+#SumTable {
+    align-content: center;
+}
+
+
